@@ -13,7 +13,7 @@ import java.util.Date;
 @Controller
 @RequestMapping(value = "/admin")
 public class LoginController {
-
+ 
     @Autowired
     private UserService userService;
 
