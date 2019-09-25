@@ -4,6 +4,7 @@ import com.smart.domain.User;
 import com.smart.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -13,7 +14,7 @@ import java.util.Date;
 @Controller
 @RequestMapping(value = "/admin")
 public class LoginController {
- 
+
     @Autowired
     private UserService userService;
 

@@ -36,6 +36,7 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${org.springframework.version}</version>
         </dependency>
+
         <!--依赖的持久化类库-->
         <dependency>
             <groupId>mysql</groupId>
